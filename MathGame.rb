@@ -16,7 +16,7 @@ class MathGame
     end
   end
   def end_game
-    if @player1.lives = 0
+    if @player1.lives == 0
       puts "Game Over! #{@player1.name} you've run out of lives!"
       puts "#{@player2.name} that means you are the winner!"
     else
